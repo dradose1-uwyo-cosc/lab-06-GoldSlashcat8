@@ -128,7 +128,6 @@ print("*"*75)
 
 # Output what the percentage of the string each character is, again in alphabetical
 
-percent = 0
 for key, value in letters_dictionary.items():
-    print(f"Percentage of {key} is: {(value/len(random_string))*100} %")
+    print(f"Percentage of {key} is: {(value/len(random_string))*100}%")
     
